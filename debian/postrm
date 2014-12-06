@@ -4,6 +4,13 @@ set -e
 
 case "$1" in
     remove)
+       if [ -f /etc/apt/preferences.d/devuan-repository ] ; then
+          rm -f /etc/apt/preferences.d/devuan-repository
+       fi
+       if [ -f /etc/apt/preferences.d/avoid-systemd ] ; then
+          rm -f /etc/apt/preferences.d/avoid-systemd
+       fi
+
     ;;
 
     purge)
