@@ -1,5 +1,11 @@
+devuan-baseconf (0.2) unstable; urgency=low
+
+  * Removed prerm file and added conffiles for apt preferences files
+
+ -- Franco (nextime) Lanza <nextime@devuan.org>  Sat, 06 Dec 2014 09:29:07 +0100
+
 devuan-baseconf (0.1) unstable; urgency=low
 
-  * Initial Release.
+  * Initial Release. 
 
  -- Franco (nextime) Lanza <nextime@devuan.org>  Thu, 27 Nov 2014 07:31:11 +0100
