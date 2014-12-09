@@ -1,10 +1,10 @@
 Package: *
 Pin: release o=Devuan
-Pin-Priority: 700
+Pin-Priority: 990
 
 Package: *
 Pin: origin packages.devuan.org
-Pin-Priority: 700
+Pin-Priority: 990
 
 Package: *
 Pin: release o=Debian
